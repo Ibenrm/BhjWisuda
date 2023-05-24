@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" href="source/img/LogoSekolah.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="framework/lightbox2/dist/css/lightbox.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="source/css/index.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+    <div class="container-lv">
+        <nav>
+            <div class="menu-icon">
+               <span class="fas fa-bars"></span>
+            </div>
+            <div class="logo">
+               Wisuda
+            </div>
+            <div class="nav-items">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#AboutThis">About</a></li>
+               <li><a href="#MemoryThis">Gallery</a></li>
+               <li><a href="#AgendaThis">Agenda</a></li>
+               <li><a href="#LokasiThis">Lokasi</a></li>
+               <li><a href="#RSVPThis">RSVP</a></li>
+               <li><button id="buttonEffect" style="--content: '______________';">
+                  <div class="lefts"></div>
+                  Admin Mode
+                  <div class="rights"></div>
+                </button></li>
+               <!-- <li><div class="wrapperbtn">
+                <a href="#"><span>Invitation!</span></a>
+              </div></li> -->
+            </div>
+            <div class="search-icon">
+               <span class="fas fa-search"></span>
+            </div>
+            <div class="cancel-icon">
+               <span class="fas fa-times"></span>
+            </div>
+            <form action="#">
+               <input type="search" class="search-data" placeholder="Search" required>
+               <button type="submit" class="fas fa-search"></button>
+            </form>
+         </nav>
+         <!--<div class="contentks">
+            <header class="space">Responsive Navbar with Search Box</header>
+            <div class="space text">
+               using HTML CSS & JavaScript
+            </div>
+         </div>-->
+
+        <div class="slider" id="home">
+            <!-- fade css -->
+            <div class="myslide" >
+                <div class="logoWeb">
+                  <ul>
+                    <li><img src="source/img/LogoSekolah.png" ></li>
+                    <li><img src="source/img/LogoSekolah1.png" ></li>
+                    <li><img src="source/img/LogoSekolah2.png" ></li>
+                    <li><img src="source/img/LogoSekolah3.png" ></li>
+                  </ul>
+                </div>
+                <div class="LogoGraduate">
+                  <img src="source/img/LogoGraduate.png" class="centered" style="height: 130px;width: 130px;">
+                </div>
+                <div class="txt">
+                    <h1>BHUMI HUSADA</h1>
+                    <p style="color:#181717d0;" >YOU`RE INVITED TO : <br><strong style="color: #181717;">BHUMI HUSADA</strong></p>
+                    <p style="color:#181717a9;"><br>Mengisi Data Kehadiran Scroll Sampai Bawah!</p>
+                    <button id="buttonEffectBubble" class="btn playMusic"><span>Play Music!</span>
+                </div>
+                <img src="source/img/background.jpg" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide">
+                <div class="logoWeb">
+                  <ul>
+                    <li><img src="source/img/LogoSekolah.png"></li>
+                    <li><img src="source/img/LogoSekolah1.png"></li>
+                    <li><img src="source/img/LogoSekolah2.png"></li>
+                    <li><img src="source/img/LogoSekolah3.png"></li>
+                  </ul>
+                </div>
+                <div class="LogoGraduate">
+                  <img src="source/img/LogoGraduate.png" class="centered" style="height: 130px;width: 130px;">
+                </div>
+                <div class="txt">
+                    <h1>BHUMI HUSADA</h1>
+                    <p style="color:#181717a9;" >YOU`RE INVITED TO : <br><strong style="color: #181717;">BHUMI HUSADA</strong></p>
+                    <p style="color:#181717a9;"><br>Mengisi Data Kehadiran Scroll Sampai Bawah!</p>
+                    <button id="buttonEffectBubble" class="btn playMusic"><span>Play Music!</span>
+                </div>
+                <img src="source/img/background2.jpg" style="width: 100%; height: 100%;">
+            </div>
+            
+            <!-- /fade css -->
+            
+            <!-- onclick js -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+            <!-- /onclick js -->
+        </div>
+        <article class="cta">
+          <div class="cta__text-column">
+            <h2>SAVE THE DATE</h2>
+            <p>Jl. R.A. Kartini No.18, Lb. Bulus, Kec. Cilandak, Kotaa Jakarta
+              Selatan, Daerah Khusus Ibukota Jakart 12440.</p>
+            <button id="buttonEffectBubble" class="btn"><span>Road Map</span></button>
+          </div>
+        </article>
+
+      <!-- About Start -->
+      <div class="container-fluid padding" id="AboutThis">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <div class="two alt-two" data-aos="fade-up" data-aos-delay="300" id="titleleader">
+              <h1>SELAMAT DATANG
+                <span>Tentang Web Ini!</span>
+              </h1>
+            </div>
+            <hr class="mb-10">
+          </div>
+        </div>
+      </div>
+      <div class="center-vertical" id="about">
+        <div class="about-us-section title-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <div class="img-head"><img src="source/img/slider1.jpeg"></div>
+              </div>
+              <div class="col-12 col-lg-6 mb-5">
+                <h2 class="text-head" data-aos="fade-up" data-aos-delay="300">KNOW MORE ABOUT US</h2>
+                <div class="break-small mb-3"></div>
+                <p class="text-para" data-aos="fade-up" data-aos-delay="400">Sebelum memperkenal Website ini Terima Kasih telah mengunjungin Website ini.
+                  Disini kami tidak hanya memberi anda undangan ke acara wisuda, tapi kami juga membawa anda lebih dekat
+                  dengan pengalaman yang tak terlupakan dan nuansa yang istimewa dan nostalgia. <strong>Jangan Lupa Mengisi
+                    Kehadiran Ananda di Acara Wisuda Kelas XII!
+                  </strong>
+                </p>
+                <div class="row">
+                  <div class="col-12 col-md-4 mb-2 mb-md-0 d-inline-block">
+                    <div class="box">
+                      <i class="fa fa-users mb-3"></i>
+                      <h4 class="mb-0">TOTAL MURID</h4>
+                      <p class="mb-0">100</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 mb-2 mb-md-0 d-inline-block">
+                    <div class="box">
+                      <i class="fa fa-clipboard-check mb-3"></i>
+                      <h4 class="mb-0">TOTAL ACCEPTED</h4>
+                      <p class="mb-0">20</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <hr class="mb-10">
+      <!-- About End -->
+
+      <!-- Our Memory Start -->
+        <div class="container-fluid padding" id="MemoryThis">
+          <div class="row welcome text-center">
+            <div class="col-12">
+              <div class="two alt-two" data-aos="fade-up" data-aos-delay="300" id="titleleader">
+                <h1>Our Memory
+                  <span>Gallery Kelas XII!</span>
+                </h1>
+              </div>
+              <hr class="mb-10">
+            </div>
+          </div>
+        </div>
+        <div class="grid-gallery" data-aos="fade-up" data-aos-delay="400">
+          <div class="grid-item">
+            <a href="source/img/img1.jpeg" data-lightbox="gridImage">
+              <img src="source/img/img1.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="source/img/img2.jpeg" data-lightbox="gridImage">
+              <img src="source/img/img2.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="source/img/img3.jpeg" data-lightbox="gridImage">
+              <img src="source/img/img3.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="source/img/img4.jpeg" data-lightbox="gridImage">
+              <img src="source/img/img4.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="source/img/img5.jpeg" data-lightbox="gridImage">
+              <img src="source/img/img5.jpeg" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="source/img/img6.jpeg" data-lightbox="gridImage">
+              <img src="source/img/img6.jpeg" />
+            </a>
+          </div>
+        </div>
+      <!-- Our Memory End -->
+      <!-- Timeline Start -->
+      <div class="fullColorBody" style="background-color:whitesmoke">
+        <div class="container-fluid padding" id="AgendaThis">
+          <div class="row welcome text-center">
+            <div class="col-12">
+              <div class="two alt-two" data-aos="fade-up" data-aos-delay="300" id="titleleader">
+                <h1>AGENDA WISUDA
+                  <span>Berikut isi acara Wisuda:</span>
+                </h1>
+              </div>
+              <hr class="mb-10">
+            </div>
+          </div>
+        </div>
+        <div class="slide-container swiper">
+          <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+                          <div class="card-image">
+                              <img src="source/img/2.png" alt="" class="card-img">
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h2 class="name">Agenda - 1</h2>
+                          <p class="description">Akan adanya Gladi Bersih</p>
+                          <button class="button">View More</button>
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/1.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 2</h2>
+                        <p class="description">Pembukaan Acara.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/3.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 3</h2>
+                        <p class="description">Menyanyikan Lagu Kebangsaan Indonesia Raya.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/4.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 4</h2>
+                        <p class="description">Memberikan Sambutan kepada Ketua Panita oleh Ibu Sri Rahayu.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/4.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 5</h2>
+                        <p class="description">Memberikan Sambutan Perwakilan Yayasan Bhumi Husada.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/4.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 6</h2>
+                        <p class="description">Memberikan Sambutan Kepala SMK Farmasi Bhumi Husada Bapak Sarwan.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/5.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 7</h2>
+                        <p class="description">Pengambilan Sumpah Asisten Tenaga Kefarmasian Lulusaan SMK Bhumi Husada Tahun 2023 oleh Kepala Sekolah.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/6.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 8</h2>
+                        <p class="description">Pengalungan medali dan pembacaan Profil Lulusan.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/4.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 9</h2>
+                        <p class="description">Menyanyikan Lagu Syukur.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/4.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 10</h2>
+                        <p class="description">Menyanyikan Lagu Terima Kasih Guruku.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/1.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 11</h2>
+                        <p class="description">Sambutan Perwakilan Wisudawan/i.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/1.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 12</h2>
+                        <p class="description">Sambutan Perwakilan Orang Tua Wisudawan/i.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/7.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 13</h2>
+                        <p class="description">Doa Penutup.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="source/img/8.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Agenda - 14</h2>
+                        <p class="description">Ramah Tamah.</p>
+                        <button class="button">View More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <hr class="mb-10">
+      <!-- Timeline End -->
+      <!--MAP START-->
+      <div class="container-fluid padding" id="LokasiThis">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <div class="two alt-two" data-aos="fade-up" data-aos-delay="300" id="titleleader">
+              <h1>LOKASI
+                <span>Ini Adalah Map Lokasi Wisuda!</span>
+              </h1>
+            </div>
+            <hr class="mb-10">
+          </div>
+        </div>
+      </div>
+
+      <div class="center-vertical">
+        <div class="map-section title-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7931267141053!2d106.7774254751395!3d-6.290898661573902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1d1b5901ab9%3A0x689d01bbac43fa49!2sMercure%20Jakarta%20Simatupang!5e0!3m2!1sid!2sid!4v1684892411387!5m2!1sid!2sid"
+                style="border:0;" class="iframe-head" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              
+              <div class="col-12 col-lg-6 mb-5">
+                <h2 class="text-head" data-aos="fade-up" data-aos-delay="300">KNOW LOCATION EVENT</h2>
+                <div class="break-small mb-3"></div>
+                <p class="text-para" data-aos="fade-up" data-aos-delay="400">Jl. R.A. Kartini No.18, Lb. Bulus, Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440<br>
+                <strong style="display: flex;justify-content: center;">Telepon: (021) 75999777</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--MAP END-->
+      <!-- RSVP START -->
+      <div class="fullColorBody" style="background-color: whitesmoke">
+        <hr class="mb-10">
+        <div class="container-fluid padding" id="RSVPThis">
+          <div class="row welcome text-center">
+            <div class="col-12">
+              <div class="two alt-two" data-aos="fade-up" data-aos-delay="300" id="titleleader">
+                <h1>RSVP
+                  <span>Silakan Mengisi Kehadiran Di Acara Wisuda!</span>
+                </h1>
+              </div>
+              <hr class="mb-10">
+            </div>
+          </div>
+        </div>
+        <div class="areaTextNotif">
+          <h3>*Jika Anda salah memasukan Nama, silakan isi ulang dengan kode rahasia yang sama. Nanti otomatis kerubah dengan yang baru!</h3>
+          <p></p>
+        </div>
+        <form class="formcontact">      
+          <input name="name" type="text" class="feedback-input" placeholder="Nama Lengkap" />   
+          <input name="password" type="text" class="feedback-input" placeholder="Kode Rahasia" />
+          <textarea name="text" class="feedback-input" placeholder="Pesan Anda. Ex: 'Ya, Saya Akan Hadir'"></textarea>
+          <input type="submit" value="SUBMIT"/>
+        </form>
+        <hr class="mb-10">
+      </div>
+      <!-- RSVP END -->
+
+      <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>©2023 Wisuda Bhumi Husada | All Rights Reserverd.</p>
+    </footer>
+  </div>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="framework/particles.js-master/particles.js"></script>
+    <script src="framework/lightbox2/dist/js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+      var buttonMusic = document.querySelector('.playMusic');
+      if (buttonMusic) {
+        buttonMusic.addEventListener('click', playMusic);
+      }
+      var playlist = ['path_to_song1.mp3', 'path_to_song2.mp3', 'path_to_song3.mp3', 'path_to_song4.mp3'];
+      var actv = false;
+      var playIndex = 0;
+      var music = new Audio();
+      music.src = "source/backsound/"+playlist[playIndex];
+      music.autoplay=true;
+
+      music.addEventListener("ended", function(){
+        if(playIndex > playlist.length - 1){
+            playIndex = 0;
+            music.src = "/source/backsound/"+playlist[playIndex];
+            playSound(true);
+        } else {
+            playIndex +=1;
+            music.src = "/source/backsound/"+playlist[playIndex];
+            playSound(true)
+        }
+      });
+
+      function playMusic(){
+        music.play();
+      }
+
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        disableScrolling: true,
+      });
+        const menuBtn = document.querySelector(".menu-icon span");
+         const searchBtn = document.querySelector(".search-icon");
+         const cancelBtn = document.querySelector(".cancel-icon");
+         const items = document.querySelector(".nav-items");
+         const form = document.querySelector("form");
+         menuBtn.onclick = ()=>{
+           items.classList.add("active");
+           menuBtn.classList.add("hide");
+           searchBtn.classList.add("hide");
+           cancelBtn.classList.add("show");
+         }
+         cancelBtn.onclick = ()=>{
+           items.classList.remove("active");
+           menuBtn.classList.remove("hide");
+           searchBtn.classList.remove("hide");
+           cancelBtn.classList.remove("show");
+           form.classList.remove("active");
+           cancelBtn.style.color = "#ff3d00";
+         }
+         searchBtn.onclick = ()=>{
+           form.classList.add("active");
+           searchBtn.classList.add("hide");
+           cancelBtn.classList.add("show");
+         }
+        </script>
+    <script type="module" src="source/js/AOS.js"></script>
+    <script src="source/js/app.js"></script>
+    <script src="source/js/slider.js"></script>
+</body>
+</html>
